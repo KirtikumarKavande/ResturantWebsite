@@ -1,0 +1,21 @@
+.container{
+    /* display: flex; */
+    width: 50vw;
+    height: 47vh;
+    background-color:#352d2d;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: table;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    bottom: 4rem;
+}
+.container label{
+    display: block;
+}
+.container span{
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+.header_title{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    color: white;
+    padding: 1rem;
+
+}
+label{
+    font-weight: bold;
+    font-size: x-large;
+    padding-left: 8rem;
+}
+.cart span img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+.cart{
+    padding-right: 3rem;
+    
+    background-color: #683333;
+    border-radius: 26px;
+    margin-right: 13rem;
+    
+}
+.cart .cartText{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    position: relative;
+    bottom: 0.5rem;
+}
+.cart .cartCount{
+    position: relative;
+    bottom: 0.5rem;
+    /* padding-right: 5px; */
+    color: white;
+    background-color: #bb2727;
+    border-radius: 10px;
+    padding: 0 6px;
+}
+.headerMealImg img{
+    width: 100%;
+    height: 40vh;
+}
+
+    
