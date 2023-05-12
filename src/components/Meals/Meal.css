@@ -1,6 +1,6 @@
 .mealContainer {
   width: 40vw;
-  height: 60vh;
+  height: 100%;
   background-color: white;
   color: black;
   position: relative;
@@ -26,4 +26,22 @@
   color: brown;
   font-size: medium;
   font-weight: 400;
+}
+.menuAndAddButtonContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.amountAndInput input{
+  width: 1rem;
+
+}
+.amountAndInput{
+  font-weight: bold;
+}
+.addBtn{
+  padding: 0.1rem 1.3rem;
+  border-radius: 13px;
+  color: white;
+  background-color: brown;
+  font-weight: bold;
 }

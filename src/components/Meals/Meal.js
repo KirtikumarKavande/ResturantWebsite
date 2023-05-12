@@ -30,12 +30,20 @@ const Meal = () => {
       <div className="menuList">
         {MenuCardData.map((item) => {
           return (
-            <>
-              <div className="menuName">{item.menu}</div>
-              <div className="menuDescription">{item.Description}</div>
-              <div className="menuPrice">{item.Price}</div>
+            <div>
+              <div className="menuAndAddButtonContainer">
+                <div>
+                  <div className="menuName">{item.menu}</div>
+                  <div className="menuDescription">{item.Description}</div>
+                  <div className="menuPrice">{item.Price}</div>
+                </div>
+                <div>
+                  <div className="amountAndInput">Amount <input/></div>
+                  <button className="addBtn">+Add</button>
+                </div>
+              </div>
               <hr></hr>
-            </>
+            </div>
           );
         })}
       </div>
