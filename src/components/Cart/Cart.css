@@ -1,0 +1,36 @@
+.sumOfAmount{
+    display: flex;
+    justify-content: space-between;
+}
+.btnContainer .btn1{
+    padding: 2px 8px;
+    border-radius: 12px;
+    color: brown;
+    margin-right: 2px;
+}
+.btnContainer .btn2{
+    padding: 2px 8px;
+    border-radius: 12px;
+    background-color: brown;
+    color: white;
+    margin-right: 2px;
+ 
+}
+.btnContainer{
+    position: relative;
+    left: 18rem;
+    top: 3px;
+
+}
+.modal .amount {
+    font-weight: bold;
+
+}
+.modal .text{
+    font-weight: bold;
+
+}
+.modal .menuName{
+    font-weight: 200;
+    font-size: small;
+}
