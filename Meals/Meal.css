@@ -1,0 +1,50 @@
+.mealContainer {
+  width: 40vw;
+  height: 100%;
+  background-color: white;
+  color: black;
+  position: relative;
+  bottom: 6rem;
+  /* display: table; */
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-right: 2rem;
+}
+.mealContainer .menuList {
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.menuName {
+  font-size: large;
+  font-weight: bold;
+}
+.menuDescription {
+  font-style: italic;
+  font-size: small;
+}
+.menuPrice {
+  color: brown;
+  font-size: medium;
+  font-weight: 400;
+}
+.menuAndAddButtonContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.amountAndInput input{
+  width: 2rem;
+
+}
+.amountAndInput{
+  font-weight: bold;
+}
+.addBtn{
+  padding: 0.1rem 1.3rem;
+  border-radius: 13px;
+  color: white;
+  background-color: brown;
+  font-weight: bold;
+}
+.amountAndInput input{
+  margin-left: 6px;
+}
